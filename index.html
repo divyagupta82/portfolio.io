@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio Website</title>
+   
+    <link rel="stylesheet" href="st.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+   
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main-content">
+        
+        <div class="profile-card"> 
+             <div class="profile-pic">
+                 <img src="images/md.jpg" alt="Divya">
+             </div>
+             <div class="profile-details">
+                  <div class="intro">
+                     <h2>Divya Gupta</h2>
+                     <h4>Full Stack Developer</h4>
+                     <div class="social">
+                         <a href="#"><i class="fab fa-facebook" style="color:var(--blue)"></i></a>
+                         <a href="#"><i class="fab fa-twitter"  style="color:var(--skyblue)"></i></a>
+                         <a href="#"><i class="fab fa-dribbble"  style="color:var(--dark-pink)"></i></a>
+                         <a href="#"><i class="fab fa-linkedin"  style="color:var(--light-blue)"></i></a>
+                     </div>
+                  </div>
+                  <div class="contact-info">
+                     <div class="row">
+                          <div class="icon">
+                             <i class="fa fa-phone"  style="color:var(--dark-magenta)"></i>
+                          </div>
+                          <div class="content">
+                             <span>Phone</span>
+                             <h5>9087654930</h5>
+                          </div>
+                     </div>
+                     <div class="row">
+                         <div class="icon">
+                            <i class="fa fa-envelope-open"  style="color:var(--light-green)"></i>
+                         </div>
+                         <div class="content">
+                            <span>Email</span>
+                            <h5>divya123@gmail.com</h5>
+                         </div>
+                    </div>
+                    <div class="row">
+                     <div class="icon">
+                        <i class="fa fa-map-marker"  style="color:var(--light-purple)"></i>
+                     </div>
+                     <div class="content">
+                        <span>Location</span>
+                        <h5>Andhra Pradesh</h5>
+                     </div>
+                  </div>
+             </div>
+                <button class="download-btn"> <i class="fa fa-download"></i> Download CV</button>
+             </div>
+        </div>
+ 
+        <div class="about">
+            <h1>About Me</h1>
+            <p> I'm a passionate Web Developer with a strong focus on creating dynamic and responsive websites. I specialize in front-end development, ensuring that every user has a seamless and engaging experience.</p>
+            <p>Whether working on a small personal project or a large-scale web application, I take pride in delivering quality work that exceeds expectations.</p>
+            <h2>What I Do !!!</h2>
+            <div class="work">
+               
+              <div class="workbox">
+                 <div class="icon">
+                    <img src="images/app.svg" alt="">
+                 </div>
+                 <div class="desc">
+                    <h3>App Development</h3>
+                    <p>I develop user-friendly mobile apps for all platforms.</p>
+                 </div>
+             </div>
+             
+             <div class="workbox">
+                 <div class="icon">
+                    <img src="images/web.svg" alt="">
+                 </div>
+                 <div class="desc">
+                    <h3>Web Development</h3>
+                    <p>I develop user-friendly mobile apps for all platforms.</p>
+                 </div>
+             </div>
+            </div>
+        </div>
+    </div>
+ 
+
+    
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <h1>Projects</h1>
+            <div class="project-list">
+                <article class="project">
+                    <h2>Language Coverter</h2>
+                    <p>A web app for real-time translation between multiple languages, featuring a simple interface for easy text input and selection. <a href="https://divyagupta82.github.io/LanguageCoverter.io/">View Project</a></p>
+                </article>
+                <article class="project">
+                    <h2>Tic-Tac-Toe</h2>
+                    <p> A web-based game that allows two players to compete in a classic Tic Tac Toe match, featuring an interactive board and simple user interface.<a href="https://divyagupta82.github.io/TicTacToe.io/">View Project</a></p>
+                </article>
+                <article class="project">
+                    <h2>E-Commerce</h2>
+                    <p>First E-commerce website using html and css. <a href="https://divyagupta82.github.io/NewArrival.io/">View Project</a></p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h1>Contact Me</h1>
+            <form action="_blank" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="submit-btn"><i class="fa fa-paper-plane"></i> Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Divya Gupta. All rights reserved.</p>
+    </footer>
+</body>
+</html>
